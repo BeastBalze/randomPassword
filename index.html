@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e701375d9d.js" crossorigin="anonymous"></script>
+    <title>randomPasswordGenerator</title>
+</head>
+
+<body>
+    <div class="full">
+        <div class="cont">
+            <div class="main">
+                <h3 id="res"></h3>
+                <i id="clip" class="fa-regular fa-copy"></i>
+            </div>
+            <br>
+            <div class="cbox">
+                <div class="ip">
+                    <label for="wordLen">Password Length</label>
+                    <input type="number" id="wordLen">
+                </div>
+                <br>
+                <div class="ip">
+                    <label for="upc">Include UpperCase</label>
+                    <input type="checkbox" id="upc">
+                </div>
+                <br>
+                <div class="ip">
+                    <label for="lwc">Include LowerCase</label>
+                    <input type="checkbox" id="lwc">
+                </div>
+                <br>
+                <div class="ip">
+                    <label for="num">Include Numbers</label>
+                    <input type="checkbox" id="num">
+                </div>
+                <br>
+                <div class="ip">
+                    <label for="sym">Include Symbols</label>
+                    <input type="checkbox" id="sym">
+                </div>
+            </div>
+            <br>
+            <div class="sub">
+                <input type="button" value="Generate Password" id="btn">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
